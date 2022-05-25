@@ -1,0 +1,130 @@
+@font-face
+{
+	font-family: 'icons';
+	src:
+		url("/assets/fonts/icons.woff?gz33q9") format("woff"),
+		url("/assets/fonts/icons.ttf?gz33q9") format("truetype"),
+		url("/assets/fonts/icons.svg?gz33q9#icons") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+[class^="icon-"], [class*=" icon-"]
+{
+	display: inline-block;
+	font-family: 'icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spin {-webkit-animation: icon-spin 2s linear infinite; animation: icon-spin 2s linear infinite;}
+
+@-webkit-keyframes icon-spin
+{
+	0%
+	{
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	} to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn)
+	}
+}
+
+@keyframes icon-spin
+{
+	0%
+	{
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	to
+	{
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn)
+	}
+}
+
+.icon-list:before {content: "\e921";}
+.icon-clock:before {content: "\e90e";}
+.icon-eye:before {content: "\e90f";}
+.icon-comment:before {content: "\e910";}
+.icon-search:before {content: "\e911";}
+.icon-tags:before {content: "\e912";}
+.icon-calendar:before {content: "\e913";}
+.icon-sync:before {content: "\e914";}
+.icon-alternative:before {content: "\e90d";}
+.icon-check:before {content: "\e907";}
+.icon-link:before {content: "\e81b";}
+.icon-info:before {content: "\e836";}
+.icon-down-open:before {content: "\e837";}
+.icon-up-open:before {content: "\e83a";}
+.icon-star:before {content: "\e908";}
+.icon-heart:before {content: "\e919";}
+.icon-arrow-up:before {content: "\ea32";}
+.icon-arrow-down:before {content: "\ea36";}
+.icon-thumbs-down:before {content: "\e904";}
+.icon-thumbs-up:before {content: "\e905";}
+.icon-video:before {content: "\e801";}
+.icon-website:before {content: "\e9c9";}
+.icon-facebook:before {content: "\ea91";}
+.icon-twitter:before {content: "\e900";}
+.icon-linkedin:before {content: "\e90a";}
+.icon-instagram:before {content: "\e906";}
+.icon-pinterest:before {content: "\e909";}
+.icon-dribbble:before {content: "\e920";}
+.icon-reddit:before {content: "\e90c";}
+.icon-youtube:before {content: "\e90b";}
+.icon-online:before {content: "\e9ca";}
+.icon-windows:before {content: "\eac2";}
+.icon-mac:before {content: "\eabf";}
+.icon-linux:before {content: "\eabd";}
+.icon-centos:before {content: "\e92e";}
+.icon-ubuntu:before {content: "\e92f";}
+.icon-fedora:before {content: "\e930";}
+.icon-microsoft:before {content: "\e93a";}
+.icon-google-play:before {content: "\e938";}
+.icon-app-store:before {content: "\e939";}
+.icon-android:before {content: "\eac0";}
+.icon-ios:before {content: "\eabe";}
+.icon-steam:before {content: "\eaad";}
+.icon-xbox:before {content: "\e903";}
+.icon-nintendo:before {content: "\e901";}
+.icon-ps:before {content: "\e902";}
+.icon-stadia:before {content: "\e91f";}
+.icon-chrome:before {content: "\e916";}
+.icon-firefox:before {content: "\e917";}
+.icon-safari:before {content: "\e915";}
+.icon-opera:before {content: "\e91c";}
+.icon-edge:before {content: "\e91d";}
+.icon-ie:before {content: "\e91e";}
+.icon-github:before {content: "\e918";}
+.icon-wordpress:before {content: "\e91b";}
+.icon-joomla:before {content: "\e922";}
+.icon-drupal:before {content: "\e926";}
+.icon-cloud:before {content: "\e91a";}
+.icon-amazon:before {content: "\ea87";}
+.icon-woo:before {content: "\e925";}
+.icon-shopify:before {content: "\e923";}
+.icon-shopware:before {content: "\e931";}
+.icon-opencart:before {content: "\e932";}
+.icon-wix:before {content: "\e933";}
+.icon-magento:before {content: "\e924";}
+.icon-server:before {content: "\e927";}
+.icon-blackberry:before {content: "\e928";}
+.icon-html:before {content: "\e929";}
+.icon-css:before {content: "\e92a";}
+.icon-js:before {content: "\e92b";}
+.icon-java:before {content: "\e92c";}
+.icon-php:before {content: "\e92d";}
+.icon-nodejs:before {content: "\e934";}
+.icon-react:before {content: "\e935";}
+.icon-angular:before {content: "\e936";}
+.icon-vuejs:before {content: "\e937";}

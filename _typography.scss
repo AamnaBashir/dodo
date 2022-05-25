@@ -1,0 +1,190 @@
+// @font-face
+// {
+//     font-family:"Source Sans Pro";
+//     src: local(''),
+//         url('../fonts/source-sans-pro-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//         url('../fonts/source-sans-pro-regular.woff2') format('woff2'), /* Super Modern Browsers */
+//         url('../fonts/source-sans-pro-regular.woff') format('woff'), /* Modern Browsers */
+//         url('../fonts/source-sans-pro-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+//         url('../fonts/source-sans-pro-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+//     font-weight: 400;
+//     font-style: normal;
+//     font-display: swap
+// }
+
+// @font-face
+// {
+//     font-family:"Source Sans Pro";
+//     src: local(''),
+//         url('../fonts/source-sans-pro-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//         url('../fonts/source-sans-pro-semibold.woff2') format('woff2'), /* Super Modern Browsers */
+//         url('../fonts/source-sans-pro-semibold.woff') format('woff'), /* Modern Browsers */
+//         url('../fonts/source-sans-pro-semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+//         url('../fonts/source-sans-pro-semibold.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+//     font-weight: 600;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+// @font-face
+// {
+//     font-family:"proxima-nova";
+//     src: local(''),
+//         url('../fonts/proxima-nova-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//         url('../fonts/proxima-nova-regular.woff2') format('woff2'), /* Super Modern Browsers */
+//         url('../fonts/proxima-nova-regular.woff') format('woff'), /* Modern Browsers */
+//         url('../fonts/proxima-nova-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+//         url('../fonts/proxima-nova-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+//     font-weight: 400;
+//     font-style: normal;
+//     font-display: swap
+// }
+
+// @font-face
+// {
+//     font-family:"proxima-nova";
+//     src: local(''),
+//         url('../fonts/proxima-nova-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//         url('../fonts/proxima-nova-semibold.woff2') format('woff2'), /* Super Modern Browsers */
+//         url('../fonts/proxima-nova-semibold.woff') format('woff'), /* Modern Browsers */
+//         url('../fonts/proxima-nova-semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+//         url('../fonts/proxima-nova-semibold.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+//     font-weight: 600;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+// @font-face
+// {
+//     font-family:"Montserrat";
+//     src: local(''),
+//         url('../fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//         url('../fonts/montserrat-regular.woff2') format('woff2'), /* Super Modern Browsers */
+//         url('../fonts/montserrat-regular.woff') format('woff'), /* Modern Browsers */
+//         url('../fonts/montserrat-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+//         url('../fonts/montserrat-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+//     font-weight: 400;
+//     font-style: normal;
+//     font-display: swap
+// }
+
+// @font-face
+// {
+//     font-family:"Montserrat";
+//     src: local(''),
+//         url('../fonts/montserrat-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//         url('../fonts/montserrat-medium.woff2') format('woff2'), /* Super Modern Browsers */
+//         url('../fonts/montserrat-medium.woff') format('woff'), /* Modern Browsers */
+//         url('../fonts/montserrat-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+//         url('../fonts/montserrat-medium.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+//     font-weight: 500;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+// @font-face
+// {
+//     font-family:"Montserrat";
+//     src: local(''),
+//         url('../fonts/montserrat-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//         url('../fonts/montserrat-semibold.woff2') format('woff2'), /* Super Modern Browsers */
+//         url('../fonts/montserrat-semibold.woff') format('woff'), /* Modern Browsers */
+//         url('../fonts/montserrat-semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+//         url('../fonts/montserrat-semibold.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+//     font-weight: 600;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+@font-face
+{
+    font-family:"Lato";
+    src: local(''),
+        url('../fonts/lato-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/lato-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/lato-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/lato-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/lato-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face
+{
+    font-family:"Lato";
+    src: local(''),
+        url('../fonts/lato-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/lato-bold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/lato-bold.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/lato-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/lato-bold.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+b,
+strong
+{
+	font-weight: $font-weight-bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	margin-bottom: 1rem;
+	margin-top: 0;
+}
+
+p
+{
+	margin-top: 0;
+	line-height: 1.8;
+}
+
+h1
+{
+	font-size:3.4rem;
+	line-height:1.2;
+	letter-spacing:-.1rem;
+}
+
+h2
+{
+	font-size:3.2rem;
+	line-height:1.25;
+	letter-spacing:-.1rem;
+}
+
+h3
+{
+	font-size:2.8rem;
+	line-height:1.3;
+	letter-spacing:-.1rem;
+}
+
+h4
+{
+	font-size:2.2rem;
+	line-height:1.35;
+	letter-spacing:-.08rem;
+}
+
+h5
+{
+	font-size:2rem;
+	line-height:1.5;
+	letter-spacing:-.05rem;
+}
+
+h6
+{
+	font-size:1.8rem;
+	line-height:1.4;
+	letter-spacing:0;
+}

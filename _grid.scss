@@ -1,0 +1,189 @@
+
+// Grid
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// .container is main centered wrapper with a max width of 112.0rem (1120px)
+
+.container
+{
+	margin: 0 auto;
+	max-width: 130rem;
+	position: relative;
+	width: 100%;
+	// padding: 0 .5rem;
+}
+
+// Using flexbox for the grid, inspired by Philip Walton:
+// http://philipwalton.github.io/solved-by-flexbox/demos/grids/
+// By default each .column within a .row will evenly take up
+// available width, and the height of each .column with take
+// up the height of the tallest .column in the same .row
+// .row
+// {
+// 	display: flex;
+// 	flex-direction: row;
+// 	padding: 0;
+// 	width: 100%;
+
+// 	.column
+// 	{
+// 		display: block;
+// 		// IE 11 required specifying the flex-basis otherwise it breaks mobile
+// 		flex: 1 1 auto;
+//         margin-left: 0;
+//         padding: 0 1rem;
+// 		max-width: 100%;
+// 		width: 100%;
+
+//         .row
+//         {
+//             margin: 0 -1rem;
+//             width: calc(100% + 2.0rem);
+//         }
+
+		// Explicit Column Percent Sizes
+		// By default each grid column will evenly distribute
+		// across the grid. However, you can specify individual
+		// columns to take up a certain size of the available area
+
+        // &.col-12
+        // {
+        //     width: 100%;
+        //     flex: 1 1 auto;
+        // }
+        
+        // &.col-11
+        // {
+        //     flex: 0 0 91.66666667%;
+        //     width: 91.66666667%;
+        // }
+        
+        // &.col-10
+        // {
+        //     flex: 0 0 83.33333333%;
+        //     width: 83.33333333%;
+        // }
+        
+        // &.col-9
+        // {
+        //     flex: 0 0 75%;
+        //     width: 75%
+        // }
+        
+        // &.col-8
+        // {
+        //     flex: 0 0 66.66666667%;
+        //     width: 66.66666667%;
+        // }
+        
+        // &.col-7
+        // {
+        //     flex: 0 0 58.33333333%;
+        //     width: 58.33333333%;
+        // }
+        
+        // &.col-6
+        // {
+        //     flex: 0 0 50%;
+        //     width: 50%
+        // }
+        
+        // &.col-5
+        // {
+        //     flex: 0 0 41.66666667%;
+        //     width: 41.66666667%;
+        // }
+        
+        // &.col-4
+        // {
+        //     flex: 0 0 33.33333333%;
+        //     width: 33.33333333%;
+        // }
+        
+        // &.col-3
+        // {
+        //     flex: 0 0 25%;
+        //     width: 25%
+        // }
+        
+        // &.col-2
+        // {
+        //     flex: 0 0 16.66666667%;
+        //     width: 16.66666667%;
+        // }
+        
+        // &.col-1
+        // {
+        //     flex: 0 0 8.33333333%;
+        //     width: 8.33333333%;
+        // }
+
+		// &.column-10
+		// {
+		// 	flex: 0 0 10%;
+		// 	max-width: 10%;
+		// }
+
+		// &.column-20
+		// {
+		// 	flex: 0 0 20%;
+		// 	max-width: 20%;
+		// }
+
+		// &.column-25
+		// {
+		// 	flex: 0 0 25%;
+		// 	max-width: 25%;
+		// }
+
+		// &.column-33,
+		// &.column-34
+		// {
+		// 	flex: 0 0 33.3333%;
+		// 	max-width: 33.3333%;
+		// }
+
+		// &.column-40
+		// {
+		// 	flex: 0 0 40%;
+		// 	max-width: 40%;
+		// }
+
+		// &.column-50
+		// {
+		// 	flex: 0 0 50%;
+		// 	max-width: 50%;
+		// }
+
+		// &.column-60
+		// {
+		// 	flex: 0 0 60%;
+		// 	max-width: 60%;
+		// }
+
+		// &.column-66,
+		// &.column-67
+		// {
+		// 	flex: 0 0 66.6666%;
+		// 	max-width: 66.6666%;
+		// }
+
+		// &.column-75
+		// {
+		// 	flex: 0 0 75%;
+		// 	max-width: 75%;
+		// }
+
+		// &.column-80
+		// {
+		// 	flex: 0 0 80%;
+		// 	max-width: 80%;
+		// }
+
+		// &.column-90
+		// {
+		// 	flex: 0 0 90%;
+		// 	max-width: 90%;
+		// }
+	// }
+// }

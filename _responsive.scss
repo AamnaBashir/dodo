@@ -1,0 +1,52 @@
+@media screen and (min-width: 568px)
+{
+    .search-toggle
+    {
+        display: none;
+    }
+    
+    .header-search
+    {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 900px)
+{
+    .header-menu
+    {
+        display: block;
+    }
+    
+    .menu-toggle
+    {
+        display: none;
+    }
+}
+
+/* mobile-portrait */
+@media screen and (max-width: 320px)
+{
+    body
+    {
+        font-size: 1.6rem;
+    }
+}
+
+/* mobile-landscape */
+@media screen and (min-width: 321px) and (max-width: 568px)
+{
+    body
+    {
+        font-size: 1.8rem;
+    }
+}
+
+/* tablet-portrait */
+@media screen and (max-width: 768px)
+{
+    .footer-inner
+    {
+        flex-direction: column;
+    }
+}
